@@ -12,6 +12,16 @@ public class Main {
         }
 
         System.out.println(sum1(ns));
+
+        //字符串 string 和字符 char
+        char a = 'a';
+        String b = "abcdefg";
+
+        Reverse sr = new Reverse();
+        sr.reverseStr(b);
+        int[] needCheck = { 1, 4, 4, 16, 25 };;
+        removeElement ele = new removeElement();
+        ele.removeElement(needCheck, 4);
     }
 
     public static int sum1(int[] ns) {
@@ -21,4 +31,6 @@ public class Main {
         }
         return sum;
     }
+
+
 }
