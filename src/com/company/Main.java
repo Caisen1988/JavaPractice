@@ -22,6 +22,11 @@ public class Main {
         int[] needCheck = { 1, 4, 4, 16, 25 };;
         removeElement ele = new removeElement();
         ele.removeElement(needCheck, 4);
+        Log log = new Log();
+        log.outLog();
+
+        ArrayListDemo demoArray =  new ArrayListDemo();
+        demoArray.addArray();
     }
 
     public static int sum1(int[] ns) {
