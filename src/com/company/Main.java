@@ -27,6 +27,9 @@ public class Main {
 
         ArrayListDemo demoArray =  new ArrayListDemo();
         demoArray.addArray();
+
+        MapDemo mapdemo = new MapDemo();
+        mapdemo.mapCreate();
     }
 
     public static int sum1(int[] ns) {
