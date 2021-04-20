@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -30,6 +33,16 @@ public class Main {
 
         MapDemo mapdemo = new MapDemo();
         mapdemo.mapCreate();
+
+        Student bob = new Student("Bob", 78);
+        Student alice = new Student("Alice", 85);
+        Student brush =  new Student("Brush", 66);
+        Student newton =   new Student("Newton", 99);
+        List<Student> list = new ArrayList<Student>();
+        list.add(bob);list.add(alice);list.add(brush);list.add(newton);
+        findScore findWay = new findScore(list);
+        findWay.getScoreByStudentName("Bob");
+        System.out.println(findWay.getScoreByStudentName("Bob"));
     }
 
     public static int sum1(int[] ns) {
