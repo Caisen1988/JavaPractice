@@ -1,1 +1,4 @@
 com\test\web\UserServlet.class
+com\test\web\vo\voBDIndepotDetail.class
+com\test\web\connDB\ConnDB.class
+com\test\web\Dao\daoBDIndepotDetail.class
